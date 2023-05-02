@@ -1,0 +1,10 @@
+﻿COMMANDS:
+dotnet ef database update
+dotnet ef migrations add intialDb
+dotnet run seeddata
+
+PACKAGES:
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.SqlServer
+Swashbuckle.AspNetCore
